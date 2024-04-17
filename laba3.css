@@ -1,0 +1,49 @@
+.d1 {
+    background-color: lightblue;
+    width: 200px;
+    height: 100px;
+}
+
+.d2 {
+    border: 2px solid black;
+}
+
+.d3 {
+    border: 2px solid black;
+    border-radius: 30%;
+}
+
+.d4 {
+    border: 2px solid black;
+    box-shadow: 5px 5px 8px 3px rgba(0, 0, 0, 0.4);
+}
+
+.d5 {
+    border: 2px solid black;
+    transform: translate(10px, -50px) scale(0.75) rotate(70deg) skewX(10deg);
+}
+
+/* Стилі для таблиці */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+
+.gradient-linear {
+    background: linear-gradient(to right, #FFD700, #FF4500);
+}
+
+.gradient-radial {
+    background: radial-gradient(circle, #00FFFF, #0000FF);
+}
+
+.custom-color {
+    background-color: pink;
+}
