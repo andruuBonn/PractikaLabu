@@ -1,0 +1,47 @@
+body {
+    background-image: url('background.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.transparent {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    margin: 20px;
+}
+
+.opaque {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 20px;
+    margin: 20px;
+}
+
+.framed-img {
+    border: 5px solid black;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.resized-img {
+    width: 200px;
+    height: auto;
+}
+
+.cut-img {
+    width: 50%;
+    clip-path: inset(0 50% 50% 0);
+}
+
+video {
+    margin: 20px;
+}
+
+audio {
+    margin: 20px;
+}
+.bg{
+    background-color: aqua;
+}
