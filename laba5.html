@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Клієнтська частина веб-сторінки</title>
+</head>
+<body>
+    <form method="get" action="server_script.cgi">
+        <label for="group">Назва студентської групи:</label><br>
+        <input type="text" id="group" name="group" required><br><br>
+
+        <label for="name">Прізвище та ініціали студента:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="number1">Число 1:</label><br>
+        <input type="text" id="number1" name="number1" required><br><br>
+
+        <label for="number2">Число 2:</label><br>
+        <input type="text" id="number2" name="number2" required><br><br>
+
+        <label for="number3">Число 3:</label><br>
+        <input type="text" id="number3" name="number3" required><br><br>
+
+        <label for="number4">Число 4:</label><br>
+        <input type="text" id="number4" name="number4" required><br><br>
+
+        <label for="number5">Число 5:</label><br>
+        <input type="text" id="number5" name="number5" required><br><br>
+
+        <label for="outputType">Вид виводу результатів:</label><br>
+        <select id="outputType" name="outputType">
+            <option value="full">Повний</option>
+            <option value="compact">Стислий</option>
+        </select><br><br>
+
+        <label for="task">Обчислення:</label><br>
+        <select id="task" name="task">
+            <option value="sum">Сума</option>
+            <option value="product">Добуток</option>
+            <option value="average">Середнє значення</option>
+            <option value="maximum">Максимум</option>
+            <option value="minimum">Мінімум</option>
+            <option value="ascending">За зростанням</option>
+            <option value="descending">За спаданням</option>
+        </select><br><br>
+
+        <input type="submit" value="Надіслати дані">
+        <input type="reset" value="Скасувати">
+    </form>
+</body>
+</html>
