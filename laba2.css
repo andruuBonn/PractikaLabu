@@ -1,0 +1,44 @@
+.external {
+    text-decoration: line-through;
+    font-size: 20px;
+}
+
+
+.internal {
+    text-shadow: 3px 3px 7px #888888;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    background-color: aquamarine;
+}
+
+p span {
+    word-spacing: 5px;
+    color: blue;
+}
+
+.mark {
+    font-weight: bold;
+    font-size: 24px;
+    background-color: aqua;
+    
+}
+.big {
+    font-size: 24px;
+    background-color: cornflowerblue;
+}
+.bold {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.cite {
+    font-style: italic;
+    font-size: 18px;
+}
+.bg{
+    background-color: aquamarine;                       
+}
+.bgTextFont{
+    background-color: antiquewhite;
+}
